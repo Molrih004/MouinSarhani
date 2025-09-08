@@ -1,0 +1,72 @@
+.dashboard_container {
+  background: rgba(15, 19, 30, 0.7);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+th, td {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 12px 15px;
+  text-align: left;
+}
+
+th {
+  background: rgba(255, 77, 148, 0.3);
+  color: #ff4d94;
+  text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.progress_section {
+  margin-top: 30px;
+}
+#progress_fill_current_progress
+{
+  width: 90%;
+  background-color: blue;
+  border-radius: 50px;
+  border:  solid blue;
+}
+
+#progress_fill_required_progress
+{
+  width: 50%;
+  background-color: red;
+  border-radius: 50px;
+  border:  solid red;
+}
+
+.progress_bar {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 15px 0;
+  height: 30px;
+  position: relative;
+}
+
+.progress_fill {
+  height: 100%;
+  line-height: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+}
+
+.current_progress {
+  background: #ff4d94;
+}
+
+.required_progress {
+  background: #ff0000;
+}
