@@ -1,0 +1,31 @@
+.faq_container {
+  background: rgba(15, 19, 30, 0.7);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+
+details {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  background: rgba(255, 77, 148, 0.1);
+}
+
+summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: #ff4d94;
+  padding: 10px;
+}
+
+details[open] {
+  background: rgba(255, 77, 148, 0.2);
+}
+
+details p {
+  color: #a0a8c3;
+  padding: 10px;
+  margin: 0;
+}

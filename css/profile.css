@@ -1,0 +1,115 @@
+.profile_hero {
+    transition: 1s;
+    background: rgba(255, 77, 148, 0.1);
+    padding: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 5px 10px 10px 10px rgb(121, 50, 131);
+
+}
+
+
+.hero_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+
+
+.profile_hero_img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ff4d94;
+    box-shadow: 5px 10px 10px 10px rgb(49, 25, 53);
+}
+
+.hero_text h2 {
+    color: #6fe4ff;
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-shadow: 0px 0px 30px rgba(0, 255, 213, 0.637);
+    font-weight: 1000;
+}
+
+.hero_details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+/* MY DETAILS */
+.hero_details p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #a0c5fc;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(35, 30, 36);
+    text-shadow: 0px 0px 30px rgba(0, 255, 213, 0.637);
+    border-radius: 20%;
+    font-size: 30px;
+}
+
+
+
+
+.profile_card h3 {
+    color: #6fe4ff;
+    font-size: 24px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 2px solid rgba(111, 228, 255, 0.3);
+    padding-bottom: 10px;
+}
+
+.card_content {
+    color: #a0a8c3;
+    line-height: 1.6;
+}
+
+.card_content p {
+    margin-bottom: 15px;
+}
+
+
+/* HOBBIES PART */
+.hobby_video {
+    width: 500px;
+    height: 230px;
+    border-radius: 8px;
+    object-fit: cover;
+    border: 2px solid rgba(111, 228, 255, 0.3);
+}
+
+h2 {
+    color: #6fe4ff;
+    font-size: 40px;
+    margin-bottom: 15px;
+    text-shadow: 0 0 10px rgba(111, 228, 255, 0.6);
+}
+
+.videos_group {
+
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.pics {
+    width: 400px;
+
+}
+
+.blender_pic {
+    width: 400px;
+    padding-left: 500px;
+}
