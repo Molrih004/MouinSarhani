@@ -25,7 +25,7 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    object-fit: cover;
+
     border: 3px solid #ff4d94;
     box-shadow: 5px 10px 10px 10px rgb(49, 25, 53);
 }
@@ -112,4 +112,27 @@ h2 {
 .blender_pic {
     width: 400px;
     padding-left: 500px;
+}
+
+.github_logo
+{
+   background-color: black;
+   border-radius: 50%;
+    width: 100px;
+    margin-left: 630px;
+    transition: 1s;
+}
+.insta_logo
+{
+    width: 100px;
+    transition: 1s;
+
+}
+.github_logo:hover
+{
+    width: 200px;
+}
+.insta_logo:hover
+{
+    width: 200px;
 }
